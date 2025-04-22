@@ -1,0 +1,83 @@
+.virtual-list-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.control-group {
+  margin-bottom: 15px;
+}
+
+.control-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.control-group input[type="range"] {
+  width: 100%;
+  margin: 0;
+}
+
+.scroll-control {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.scroll-control input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 120px;
+}
+
+.scroll-control button {
+  padding: 8px 16px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scroll-control button:hover {
+  background-color: #333;
+}
+
+.virtual-list {
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  background: white;
+  border-radius: 4px;
+}
+
+.item-content {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-index {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 2px;
+}
+
+.info-text {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+} 
